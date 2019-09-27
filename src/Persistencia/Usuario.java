@@ -24,7 +24,8 @@ public class Usuario {
         
     }
     
-    public Usuario(String cpf, String nome, String email, String usuario, String senha, boolean redefineSenha)
+    public Usuario(String cpf, String nome, String email,
+            String usuario, String senha, boolean redefineSenha)
     {
         this.cpf = cpf;
         this.nome = nome;
@@ -32,6 +33,7 @@ public class Usuario {
         this.usuario = usuario;
         this.senha = senha;
         this.redefineSenha = redefineSenha;
+                
     }
     
     /**

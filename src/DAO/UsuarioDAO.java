@@ -8,11 +8,12 @@ package DAO;
 import java.sql.*;
 import java.util.ArrayList;
 import java.sql.PreparedStatement;
-import Persistencia.Usuario;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
+
+import Persistencia.Usuario;
 
 /**
  *
